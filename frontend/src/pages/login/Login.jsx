@@ -32,6 +32,8 @@ const Login = () => {
 							className='w-full input input-bordered h-10'
 							value={username}
 							onChange={(e) => setUsername(e.target.value)}
+							  autoComplete="off"
+
 						/>
 					</div>
 
